@@ -1,0 +1,127 @@
+
+/* Google Font Link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
+
+/* Default Css  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Nagad Header Section Css Start Here  */
+
+.header-section {
+    padding: 0 30px;
+}
+
+.navbar-brand img {
+    width: 130px;
+    height: auto;
+}
+.nav-link {
+    font-size: 0.9rem;
+    color: #333 !important;
+    padding: 0 20px !important;
+    font-weight: 500 !important;
+}
+
+.dropdown-menu {
+    font-size: 0.9rem;
+    color: #212529;
+    box-shadow: 5.5px 4px 26px rgba(0, 0, 0,0.1);
+    list-style: none;
+    top: 33px !important;
+    border: none !important;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: #fff !important;
+    border: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #F8F9FA !important;
+    color: #ff7200 !important;
+}
+
+.dropdown-menu {
+   padding: 0; 
+}
+/* Nagad Header Section Css End Here  */
+
+/* Nagad Banner Section Css Start Here  */
+
+.banner-section {
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    width: 100%;
+}
+
+
+/* Nagad Banner Section Css End Here  */
+
+
+/* Magnific Pop up Section Css start Here  */
+
+.magnific-pop {
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    background-size: cover ;
+    align-items: center;
+    position: relative;
+}
+
+.magnific-pop::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 1;
+}
+.video{
+    z-index: 99999999;
+}
+
+.title{
+    color: #fff;
+   
+}
+
+.vido-popup {
+   
+    background: #fff;
+    padding: 16px 38px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #000;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.vido-popup span {
+    margin-right: 20px;
+    color: #EC1C24;
+}
+
+/* Magnific Pop up Section Css End Here  */
